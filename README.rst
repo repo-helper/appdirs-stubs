@@ -8,6 +8,7 @@ appdirs-stubs
 
 .. end short_desc
 
+Based on the work by Sebastian Meßmer in https://github.com/ActiveState/appdirs/pull/75
 
 .. start shields
 
