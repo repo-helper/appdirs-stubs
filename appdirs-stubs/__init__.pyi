@@ -34,63 +34,62 @@ Type stubs for appdirs
 from typing import Optional
 
 def user_data_dir(
-        appname: Optional[str] = None,
-        appauthor: Optional[str] = None,
-        version: Optional[str] = None,
-        roaming: bool = False,
+        appname: Optional[str] = ...,
+        appauthor: Optional[str] = ...,
+        version: Optional[str] = ...,
+        roaming: bool = ...,
         ) -> str: ...
 
-
 def site_data_dir(
-        appname: Optional[str] = None,
-        appauthor: Optional[str] = None,
-        version: Optional[str] = None,
-        multipath: bool = False,
+        appname: Optional[str] = ...,
+        appauthor: Optional[str] = ...,
+        version: Optional[str] = ...,
+        multipath: bool = ...,
         ) -> str: ...
 
 def user_config_dir(
-        appname: Optional[str] = None,
-        appauthor: Optional[str] = None,
-        version: Optional[str] = None,
-        roaming: bool = False,
+        appname: Optional[str] = ...,
+        appauthor: Optional[str] = ...,
+        version: Optional[str] = ...,
+        roaming: bool = ...,
         ) -> str: ...
 
 def site_config_dir(
-        appname: Optional[str] = None,
-        appauthor: Optional[str] = None,
-        version: Optional[str] = None,
-        multipath: bool = False,
+        appname: Optional[str] = ...,
+        appauthor: Optional[str] = ...,
+        version: Optional[str] = ...,
+        multipath: bool = ...,
         ) -> str: ...
 
 def user_cache_dir(
-        appname: Optional[str] = None,
-        appauthor: Optional[str] = None,
-        version: Optional[str] = None,
-        opinion: bool = True,
+        appname: Optional[str] = ...,
+        appauthor: Optional[str] = ...,
+        version: Optional[str] = ...,
+        opinion: bool = ...,
         ) -> str: ...
 
 def user_state_dir(
-        appname: Optional[str] = None,
-        appauthor: Optional[str] = None,
-        version: Optional[str] = None,
-        roaming: bool = False,
+        appname: Optional[str] = ...,
+        appauthor: Optional[str] = ...,
+        version: Optional[str] = ...,
+        roaming: bool = ...,
         ) -> str: ...
 
 def user_log_dir(
-        appname: Optional[str] = None,
-        appauthor: Optional[str] = None,
-        version: Optional[str] = None,
-        opinion: bool = True,
+        appname: Optional[str] = ...,
+        appauthor: Optional[str] = ...,
+        version: Optional[str] = ...,
+        opinion: bool = ...,
         ) -> str: ...
 
 class AppDirs:
     def __init__(
             self,
-            appname: Optional[str] = None,
-            appauthor: Optional[str] = None,
-            version: Optional[str] = None,
-            roaming: bool = False,
-            multipath: bool = False,
+            appname: Optional[str] = ...,
+            appauthor: Optional[str] = ...,
+            version: Optional[str] = ...,
+            roaming: bool = ...,
+            multipath: bool = ...,
             ) -> None: ...
 
     @property
