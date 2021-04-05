@@ -31,7 +31,7 @@ repos:
       args:
        - --allow-git
     - id: check-docstring-first
-      exclude: ^(doc-source/conf|__pkginfo__|make_conda_recipe|setup|tests/.*)\.py$
+      exclude: ^(doc-source/conf|__pkginfo__|setup|tests/.*)\.py$
     - id: bind-requirements
 
  - repo: https://github.com/domdfcoding/flake8-dunder-all
@@ -59,6 +59,7 @@ repos:
     - id: pyupgrade
       args:
        - --py36-plus
+       - --keep-runtime-typing
 
  - repo: https://github.com/Lucas-C/pre-commit-hooks
    rev: v1.1.9
@@ -70,6 +71,6 @@ repos:
    rev: v0.4.3
    hooks:
     - id: formate
-      exclude: ^(doc-source/conf|__pkginfo__|make_conda_recipe|setup)\.(_)?py$
+      exclude: ^(doc-source/conf|__pkginfo__|setup)\.(_)?py$
 
 # Custom hooks can be added below this comment
