@@ -1,3 +1,30 @@
 [build-system]
 requires = [ "setuptools>=40.6.0", "wheel>=0.34.2",]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "appdirs-stubs"
+version = "0.0.0"
+description = "Type stubs for appdirs"
+readme = "README.rst"
+keywords = []
+dynamic = [ "requires-python", "classifiers", "dependencies",]
+
+[[project.authors]]
+email = "dominic@davis-foster.co.uk"
+name = "Dominic Davis-Foster"
+
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+Homepage = "https://github.com/repo-helper/appdirs-stubs"
+"Issue Tracker" = "https://github.com/repo-helper/appdirs-stubs/issues"
+"Source Code" = "https://github.com/repo-helper/appdirs-stubs"
+
+[tool.mkrecipe]
+conda-channels = [ "repo-helper",]
+extras = "all"
+license-key = "MIT"
+package = "appdirs-stubs"

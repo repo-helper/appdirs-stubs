@@ -2,6 +2,8 @@
 # This file is managed by 'repo_helper'. Don't edit it directly.
 
 # stdlib
+import pathlib
+import shutil
 import sys
 
 # 3rd party
@@ -12,6 +14,9 @@ sys.path.append('.')
 # this package
 from __pkginfo__ import *  # pylint: disable=wildcard-import
 
+repo_root = pathlib.Path(__file__).parent
+install_requires = (repo_root / "requirements.txt").read_text(encoding="UTF-8").split('\n')
+
 setup(
 		description="Type stubs for appdirs",
 		extras_require=extras_require,
@@ -19,3 +24,5 @@ setup(
 		py_modules=[],
 		version=__version__,
 		)
+
+shutil.rmtree("appdirs_stubs.egg-info", ignore_errors=True)
