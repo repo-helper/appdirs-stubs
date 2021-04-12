@@ -1,6 +1,6 @@
 [build-system]
-requires = [ "setuptools>=40.6.0", "wheel>=0.34.2",]
-build-backend = "setuptools.build_meta"
+requires = [ "whey",]
+build-backend = "whey"
 
 [project]
 name = "appdirs-stubs"
@@ -26,5 +26,13 @@ Homepage = "https://github.com/repo-helper/appdirs-stubs"
 [tool.mkrecipe]
 conda-channels = [ "repo-helper",]
 extras = "all"
+license-key = "MIT"
+package = "appdirs-stubs"
+
+[tool.whey]
+base-classifiers = []
+python-versions = [ "3.6",]
+python-implementations = [ "CPython",]
+platforms = [ "Windows", "macOS", "Linux",]
 license-key = "MIT"
 package = "appdirs-stubs"

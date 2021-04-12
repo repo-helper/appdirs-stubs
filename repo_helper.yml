@@ -10,6 +10,7 @@ version: '0.0.0'
 license: 'MIT'
 short_desc: 'Type stubs for appdirs'
 
+use_whey: true
 enable_conda: false
 on_pypi: false
 enable_docs: false
