@@ -18,8 +18,10 @@ Based on the work by Sebastian Meßmer in https://github.com/ActiveState/appdirs
 
 	* - Tests
 	  - |actions_linux| |actions_windows| |actions_macos|
+	* - PyPI
+	  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
 	* - Activity
-	  - |commits-latest| |commits-since| |maintained|
+	  - |commits-latest| |commits-since| |maintained| |pypi-downloads|
 	* - QA
 	  - |codefactor| |actions_flake8| |actions_mypy|
 	* - Other
@@ -53,6 +55,22 @@ Based on the work by Sebastian Meßmer in https://github.com/ActiveState/appdirs
 	:target: https://www.codefactor.io/repository/github/repo-helper/appdirs-stubs
 	:alt: CodeFactor Grade
 
+.. |pypi-version| image:: https://img.shields.io/pypi/v/appdirs-stubs
+	:target: https://pypi.org/project/appdirs-stubs/
+	:alt: PyPI - Package Version
+
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/appdirs-stubs?logo=python&logoColor=white
+	:target: https://pypi.org/project/appdirs-stubs/
+	:alt: PyPI - Supported Python Versions
+
+.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/appdirs-stubs
+	:target: https://pypi.org/project/appdirs-stubs/
+	:alt: PyPI - Supported Implementations
+
+.. |wheel| image:: https://img.shields.io/pypi/wheel/appdirs-stubs
+	:target: https://pypi.org/project/appdirs-stubs/
+	:alt: PyPI - Wheel
+
 .. |license| image:: https://img.shields.io/github/license/repo-helper/appdirs-stubs
 	:target: https://github.com/repo-helper/appdirs-stubs/blob/master/LICENSE
 	:alt: License
@@ -71,6 +89,10 @@ Based on the work by Sebastian Meßmer in https://github.com/ActiveState/appdirs
 .. |maintained| image:: https://img.shields.io/maintenance/yes/2021
 	:alt: Maintenance
 
+.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/appdirs-stubs
+	:target: https://pypi.org/project/appdirs-stubs/
+	:alt: PyPI - Downloads
+
 .. end shields
 
 Installation
@@ -78,12 +100,12 @@ Installation
 
 .. start installation
 
-``appdirs-stubs`` can be installed from GitHub.
+``appdirs-stubs`` can be installed from PyPI.
 
 To install with ``pip``:
 
 .. code-block:: bash
 
-	$ python -m pip install git+https://github.com/repo-helper/appdirs-stubs
+	$ python -m pip install appdirs-stubs
 
 .. end installation
