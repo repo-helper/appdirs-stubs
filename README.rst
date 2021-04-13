@@ -78,7 +78,7 @@ Based on the work by Sebastian Meßmer in https://github.com/ActiveState/appdirs
 .. |language| image:: https://img.shields.io/github/languages/top/repo-helper/appdirs-stubs
 	:alt: GitHub top language
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/repo-helper/appdirs-stubs/v0.0.0
+.. |commits-since| image:: https://img.shields.io/github/commits-since/repo-helper/appdirs-stubs/v0.1.0
 	:target: https://github.com/repo-helper/appdirs-stubs/pulse
 	:alt: GitHub commits since tagged version
 
