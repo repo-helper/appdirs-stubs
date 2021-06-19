@@ -16,3 +16,4 @@ enable_docs: false
 enable_tests: false
 
 stubs_package: true
+mypy_version: 0.902
