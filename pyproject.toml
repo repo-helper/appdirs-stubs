@@ -23,12 +23,6 @@ Homepage = "https://github.com/repo-helper/appdirs-stubs"
 "Issue Tracker" = "https://github.com/repo-helper/appdirs-stubs/issues"
 "Source Code" = "https://github.com/repo-helper/appdirs-stubs"
 
-[tool.mkrecipe]
-conda-channels = [ "repo-helper",]
-extras = "all"
-license-key = "MIT"
-package = "appdirs-stubs"
-
 [tool.whey]
 base-classifiers = []
 python-versions = [ "3.6",]
