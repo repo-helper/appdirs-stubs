@@ -56,14 +56,14 @@ def user_config_dir(
 
 def site_config_dir(
 		appname: Optional[str] = ...,
-		appauthor: Optional[Union[str, bool]] = ...,
+		appauthor: Optional[str]= ...,
 		version: Optional[str] = ...,
 		multipath: bool = ...,
 		) -> str: ...
 
 def user_cache_dir(
 		appname: Optional[str] = ...,
-		appauthor: Optional[str] = ...,
+		appauthor: Optional[Union[str, bool]]  = ...,
 		version: Optional[str] = ...,
 		opinion: bool = ...,
 		) -> str: ...
