@@ -47,8 +47,8 @@ Based on the work by Sebastian Meßmer in https://github.com/ActiveState/appdirs
 	:target: https://github.com/repo-helper/appdirs-stubs/actions?query=workflow%3A%22mypy%22
 	:alt: mypy status
 
-.. |requires| image:: https://dependency-dash.herokuapp.com/github/repo-helper/appdirs-stubs/badge.svg
-	:target: https://dependency-dash.herokuapp.com/github/repo-helper/appdirs-stubs/
+.. |requires| image:: https://dependency-dash.repo-helper.uk/github/repo-helper/appdirs-stubs/badge.svg
+	:target: https://dependency-dash.repo-helper.uk/github/repo-helper/appdirs-stubs/
 	:alt: Requirements Status
 
 .. |codefactor| image:: https://img.shields.io/codefactor/grade/github/repo-helper/appdirs-stubs?logo=codefactor
