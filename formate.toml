@@ -32,4 +32,4 @@ use_parentheses = true
 remove_redundant_aliases = true
 default_section = "THIRDPARTY"
 known_third_party = [ "github", "requests",]
-known_first_party = "appdirs"
+known_first_party = [ "appdirs",]
