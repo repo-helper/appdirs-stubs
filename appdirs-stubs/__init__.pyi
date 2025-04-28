@@ -31,7 +31,7 @@ Type stubs for appdirs
 #
 
 # stdlib
-from typing import Optional
+from typing import Optional, Union
 
 def user_data_dir(
 		appname: Optional[str] = ...,
@@ -63,7 +63,7 @@ def site_config_dir(
 
 def user_cache_dir(
 		appname: Optional[str] = ...,
-		appauthor: Optional[str] = ...,
+		appauthor: Optional[Union[str, bool]] = ...,
 		version: Optional[str] = ...,
 		opinion: bool = ...,
 		) -> str: ...
@@ -77,7 +77,7 @@ def user_state_dir(
 
 def user_log_dir(
 		appname: Optional[str] = ...,
-		appauthor: Optional[str] = ...,
+		appauthor: Optional[Union[str, bool]] = ...,
 		version: Optional[str] = ...,
 		opinion: bool = ...,
 		) -> str: ...
