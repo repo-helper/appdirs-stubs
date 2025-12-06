@@ -24,14 +24,14 @@ Homepage = "https://github.com/repo-helper/appdirs-stubs"
 
 [tool.whey]
 base-classifiers = []
-python-versions = [ "3.8",]
+python-versions = [ "3.9",]
 python-implementations = [ "CPython",]
 platforms = [ "Windows", "macOS", "Linux",]
 license-key = "MIT"
 package = "appdirs-stubs"
 
 [tool.mypy]
-python_version = "3.8"
+python_version = "3.9"
 namespace_packages = true
 check_untyped_defs = true
 warn_unused_ignores = true
