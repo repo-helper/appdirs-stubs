@@ -90,7 +90,7 @@ Based on the work by Sebastian Meßmer in https://github.com/ActiveState/appdirs
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/appdirs-stubs
-	:target: https://pypi.org/project/appdirs-stubs/
+	:target: https://pypistats.org/packages/appdirs-stubs
 	:alt: PyPI - Downloads
 
 .. end shields
