@@ -4,7 +4,7 @@ build-backend = "whey"
 
 [project]
 name = "appdirs-stubs"
-version = "0.1.0"
+version = "0.2.0"
 description = "Type stubs for appdirs"
 readme = "README.rst"
 keywords = []
